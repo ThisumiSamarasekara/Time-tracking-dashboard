@@ -1,11 +1,15 @@
+.profile_activities {
+  margin-top: 280px;
+}
+
 .activity {
-  width: 800px;
-  /* height: 800px; */
+  width: 780px;
   margin-left: 490px;
-  margin-top: -758px;
+  margin-top: -485px;
 }
 
 .set1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0fr);
+  gap: 80px 30px;
 }
