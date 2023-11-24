@@ -1,0 +1,67 @@
+.activity_container {
+  background-color: hsl(15, 100%, 70%);
+  height: 100px;
+  width: 170px;
+  border-radius: 15px;
+  padding: 40px 35px;
+}
+
+.activity_img img {
+  width: 60px;
+  margin-left: 130px;
+  margin-top: -40px;
+}
+
+.heading1 p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  margin-top: -8px;
+  color: white;
+  font-weight: 500;
+  width: 70px;
+}
+
+.info_container {
+  background-color: hsl(235, 46%, 20%);
+  height: 100px;
+  width: 170px;
+  border-radius: 15px;
+  padding: 40px 35px;
+  position: absolute;
+  top: 45px;
+}
+
+.activity_heading_name {
+  display: flex;
+  gap: 0 105px;
+}
+
+.dots {
+  margin-top: -11.5px;
+  margin-left: -25px;
+}
+
+.main_container {
+  position: relative;
+}
+
+.time {
+  font-family: "Rubik", sans-serif;
+  font-size: 45px;
+  color: white;
+  font-weight: 300;
+  margin-top: -40px;
+}
+
+.lastWeekTime {
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  color: white;
+  margin-top: -35px;
+  color: hsl(236, 100%, 87%);
+}
+
+.info_container:hover {
+  background-color: hsl(235, 45%, 61%);
+  cursor: pointer;
+}
