@@ -1,13 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import img from "../../images/image-jeremy.png";
 import "../Profile/Profile.css";
 
-export default function Profile() {
-  const [selectedPeriod, setSelectedPeriod] = useState("Daily");
-
-  const handlePeriodClick = (period) => {
-    setSelectedPeriod(period);
-  };
+export default function Profile({ selectedPeriod, handlePeriodClick }) {
   return (
     <div className="main_container">
       <div className="profile_container">

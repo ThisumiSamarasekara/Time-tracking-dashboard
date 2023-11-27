@@ -1,14 +1,14 @@
 import React from "react";
-import img from "../../images/icon-work.svg";
 import img1 from "../../images/icon-ellipsis.svg";
 import "../Activity/Activity.css";
 
 export default function Activity({
   activity,
   image,
+  backgroundColor,
+  selectedPeriod,
   hours,
   lastWeekHours,
-  backgroundColor,
 }) {
   return (
     <div className="main_container">
@@ -29,10 +29,23 @@ export default function Activity({
           </div>
         </div>
         <div className="time">
-          <p>{hours}hrs</p>
+          <p>
+            {selectedPeriod === "Daily"
+              ? `${hours}hrs`
+              : selectedPeriod === "Weekly"
+              ? `${hours}hrs`
+              : `${hours}hrs`}
+          </p>
         </div>
         <div className="lastWeekTime">
-          <p>Last Week - {lastWeekHours}hrs</p>
+          <p>
+            Last Week -{" "}
+            {selectedPeriod === "Daily"
+              ? `${lastWeekHours}hrs`
+              : selectedPeriod === "Weekly"
+              ? `${lastWeekHours}hrs`
+              : `${lastWeekHours}hrs`}
+          </p>
         </div>
       </div>
     </div>

@@ -13,3 +13,21 @@
   grid-template-columns: repeat(3, 0fr);
   gap: 80px 30px;
 }
+
+@media (max-width: 376px) {
+  .profile_activities {
+    margin-top: 150px;
+  }
+
+  .activity {
+    width: 780px;
+    margin-left: 9px;
+    margin-top: 25px;
+  }
+
+  .set1 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px 0;
+  }
+}
