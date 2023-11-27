@@ -28,24 +28,26 @@ export default function Activity({
             </div>
           </div>
         </div>
-        <div className="time">
-          <p>
-            {selectedPeriod === "Daily"
-              ? `${hours}hrs`
-              : selectedPeriod === "Weekly"
-              ? `${hours}hrs`
-              : `${hours}hrs`}
-          </p>
-        </div>
-        <div className="lastWeekTime">
-          <p>
-            Last Week -{" "}
-            {selectedPeriod === "Daily"
-              ? `${lastWeekHours}hrs`
-              : selectedPeriod === "Weekly"
-              ? `${lastWeekHours}hrs`
-              : `${lastWeekHours}hrs`}
-          </p>
+        <div className="time_lastWeekTime">
+          <div className="time">
+            <p>
+              {selectedPeriod === "Daily"
+                ? `${hours}hrs`
+                : selectedPeriod === "Weekly"
+                ? `${hours}hrs`
+                : `${hours}hrs`}
+            </p>
+          </div>
+          <div className="lastWeekTime">
+            <p>
+              Last Week -{" "}
+              {selectedPeriod === "Daily"
+                ? `${lastWeekHours}hrs`
+                : selectedPeriod === "Weekly"
+                ? `${lastWeekHours}hrs`
+                : `${lastWeekHours}hrs`}
+            </p>
+          </div>
         </div>
       </div>
     </div>
