@@ -1,4 +1,9 @@
 body {
   background-color: hsl(226, 43%, 10%);
-  height: 1490px;
+}
+
+@media (max-width: 376px) {
+  body {
+    height: 1490px;
+  }
 }
