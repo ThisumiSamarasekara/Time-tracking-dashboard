@@ -36,7 +36,7 @@
 
 .days_container {
   background-color: hsl(235, 46%, 20%);
-  height: 260px;
+  height: 265px;
   width: 170px;
   border-radius: 15px;
   margin-top: 150px;
@@ -44,7 +44,7 @@
 }
 
 .days_info {
-  margin-top: 180px;
+  margin-top: 185px;
 }
 
 .days_info p {
