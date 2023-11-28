@@ -8,7 +8,7 @@ import PlayIcon4 from "../../images/icon-exercise.svg";
 import PlayIcon5 from "../../images/icon-social.svg";
 import PlayIcon6 from "../../images/icon-self-care.svg";
 import data from "../../metaData/data.json";
-import "../Page/Page.css";
+import "./Page.css";
 
 function Page() {
   const [selectedPeriod, setSelectedPeriod] = useState("Weekly");

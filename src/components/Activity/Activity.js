@@ -11,7 +11,7 @@ export default function Activity({
   lastWeekHours,
 }) {
   return (
-    <div className="main_container">
+    <div className="container">
       <div className="activity_container" style={{ backgroundColor }}>
         <div className="activity_img">
           <img src={image} />
